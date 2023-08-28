@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    position: sticky;
+    z-index: 1;
+}
+
+
+.container{
+    padding: 10px 7rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word{
+    display: flex;
+    margin-left: 10px;
+    color: white;
+}
+
+.word span{
+    margin-top: 2px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.numbers{
+    margin-left: 10px;
+    color: white;
+    margin-top: 2px;
+}
+
+#Up{
+    background-color: #383e42;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+}
+
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+
+.right ul li{
+    list-style: none;
+}
+
+.right ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+.language{
+    display: flex;
+}
+
+.language h4:first-child{
+    color: gray;
+}
+
+.language h4:last-child{
+    color: white;
+}
+
+.line{
+    border: 1px solid blue;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+#Center{
+    background-color: #383e42e4;
+}
+
+.input input{
+    width: 60%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.kamp {
+    border: 1px solid white;
+    width: 200px;
+    padding-left: 35px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.kamp a{
+    color: white;
+    display: block;
+    padding-top: 10px;
+}
+
+
+.center{
+    display: flex;
+}
+
+.input{
+    color: rgba(7, 66, 7, 0.714);
+    position: relative;
+}
+
+.input input{
+    width: 800px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.input i{
+    position: absolute;
+    padding: 10px;
+}
+
+.input input::placeholder{
+    color: rgba(7, 66, 7, 0.714);
+}
+
+.account{
+    display: flex;
+    margin-left: 6rem;
+}
+
+.account p{
+    font-size: 10px;
+}
+
+.icon i{
+    font-size: 200;
+    display: block;
+    transition: .5s;
+}
+
+.icon{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.icon:hover i{
+    color: red;
+}
+
+.icon p{
+    margin-top: 8px;
+}
+
+#down{
+    padding: 10px 0;
+}
+
+.entertainment-all{
+    display: flex;
+    justify-content: space-between;
+    margin-right: rem;
+    font-weight: bold;  
+}
+
+.entertainment a i{
+    margin-right: 10px;
+    font-size:  25px;
+}
+
+.entertainment a{
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.image{
+    width: 65%;
+
+}
+
+.allphoto{
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.emptyslide{
+    padding: 8px;
+    width: 40%;
+    border-radius: 7px;
+    background-color:  rgba(249, 250, 252, 0.915);
+    position: absolute;
+    bottom: -5px;
+    left: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.emoty{
+    border-radius: 3px;
+    background-color: rgba(204, 207, 211, 0.499);
+    padding: 3px;
+    width: 22%;
+}
+
+.emoty:nth-child(2){
+    background-color: red;
+}
+
+#Photo-slide{
+    background-color: #5053551c;
+}
+
+
+#Phone{
+    margin: 5rem 0;
+}
+
+.sale-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 23%;
+    position: relative;
+}
+
+.photo-phone img{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.photo-phone{
+    position: relative;
+}
+
+.photo-phone i{
+    right: 0;
+}
+
+.photo-phone i{
+    position: absolute;
+}
+
+.sale{
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 50%;
+    padding: 9px 0;
+    width: 30%;
+    height: 5rem;
+    position: absolute;
+    top: 60px;
+    left: -10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-credit{
+    display: flex;
+    justify-content: space-between;
+}
